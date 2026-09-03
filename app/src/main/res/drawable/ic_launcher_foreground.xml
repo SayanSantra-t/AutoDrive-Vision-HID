@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Vision Radar Rays / Sensor Cone -->
+    <path
+        android:fillColor="#1500E5FF"
+        android:pathData="M54,50 L28,24 L80,24 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28,24 L54,50 L80,24"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5" />
+    
+    <!-- AI HUD Target Reticle & Vision Bounds -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,28 L36,28 L36,34 M66,28 L72,28 L72,34 M36,44 L36,50 L42,50 M72,44 L72,50 L66,50"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.8" />
+        
+    <!-- Autonomous Vehicle Body (Top-down sleek aerodynamic chassis) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M48,46 C48,42 50,38 54,38 C58,38 60,42 60,46 L63,62 C63,65 61,68 54,68 C47,68 45,65 45,62 Z" />
+    <path
+        android:fillColor="#0A192F"
+        android:pathData="M50,48 C50,45 52,43 54,43 C56,43 58,45 58,48 L58,54 L50,54 Z" />
+    <!-- Headlights Beam -->
+    <path
+        android:fillColor="#76FF03"
+        android:pathData="M48,39 L45,34 L49,34 Z M60,39 L63,34 L59,34 Z" />
+
+    <!-- Bluetooth HID Controller Arc Base -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M33,72 C33,70 35,69 38,69 L70,69 C73,69 75,70 75,72 L77,80 C78,85 73,88 69,85 L64,80 L44,80 L39,85 C35,88 30,85 31,80 Z" />
+    <!-- D-pad on Controller -->
+    <path
+        android:fillColor="#0A192F"
+        android:pathData="M40,73 L42,73 L42,77 L40,77 Z M38,75 L44,75 L44,76 L38,76 Z" />
+    <!-- Action Buttons on Controller -->
+    <path
+        android:fillColor="#76FF03"
+        android:pathData="M66,74 A1.2,1.2 0 1,0 66,76.4 A1.2,1.2 0 1,0 66,74 M70,74 A1.2,1.2 0 1,0 70,76.4 A1.2,1.2 0 1,0 70,74" />
+</vector>

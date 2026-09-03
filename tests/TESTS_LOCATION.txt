@@ -1,0 +1,32 @@
+AutoDrive Vision HID - Test Files Reference
+============================================
+
+PC Test Harness (CarX Street live driving):
+  - carx_live_driver.py       (root of project)
+  - harness/                  (full modular harness directory)
+    - harness/main.py         (entry point)
+    - harness/vision/         (lane detection, obstacle grid)
+    - harness/control/        (PID, PWM, speed regulator)
+    - harness/capture/        (screen capture, window finder)
+    - harness/input/          (DirectInput, safety guard)
+    - harness/benchmark/      (profiler suite, ledger writer)
+    - harness/overlay/        (HUD visualizer)
+    - harness/profiler/       (memory pool, mobile profile, throttler)
+
+E2E Test Suite (Archived - deleted to save storage):
+  These files were in tests/e2e/ and tests/ directories.
+  They have been archived into the project zip:
+    Desktop: AutoDrive-Vision-HID.zip
+
+APK Release:
+  GitHub Releases: https://github.com/SayanSantra-t/AutoDrive-Vision-HID/releases
+  Desktop copy: C:\Users\sayan\OneDrive\Desktop\AutoDrive.apk
+
+Target Devices:
+  - Samsung Galaxy F23 5G  (Snapdragon 750G, 6GB RAM)
+  - Infinix Zero 30 5G     (Dimensity 8020, 12GB RAM)
+
+Notes:
+  - Run carx_live_driver.py on PC to test driving algorithm before mobile deployment
+  - harness/config.py has Snapdragon vs Dimensity performance profiles
+  - PERFORMANCE_LOG.md has all benchmark results

@@ -23,3 +23,5 @@ __pycache__/
 *.mp4
 *.avi
 carx_*.mp4
+.antigravity/
+metadata.json
